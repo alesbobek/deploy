@@ -1,4 +1,4 @@
-set -x
+#!/bin/bash
 apt-get update
 apt-get -y install apt-transport-https \
      ca-certificates \
