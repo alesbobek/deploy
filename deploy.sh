@@ -5,7 +5,8 @@ apt-get -y install apt-transport-https \
      curl \
      gnupg2 \
      software-properties-common \
-     lsb-release
+     lsb-release \
+	 htop bash-completion
 
 curl -fs https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 
